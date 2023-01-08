@@ -1,0 +1,14 @@
+@charset 'UTF-8';
+
+/* icon : size */
+.icon16 { display: inline-block; font-size: xx-small; color: transparent; text-indent: -999px; overflow: hidden; vertical-align: middle; width: 16px; height: 16px; background-size: contain; background-repeat: no-repeat; background-position: center; }
+.icon20 { display: inline-block; font-size: xx-small; color: transparent; text-indent: -999px; overflow: hidden; vertical-align: middle; width: 20px; height: 20px; background-size: contain; background-repeat: no-repeat; background-position: center; }
+.icon24 { display: inline-block; font-size: xx-small; color: transparent; text-indent: -999px; overflow: hidden; vertical-align: middle; width: 24px; height: 24px; background-size: contain; background-repeat: no-repeat; background-position: center; }
+.icon28 { display: inline-block; font-size: xx-small; color: transparent; text-indent: -999px; overflow: hidden; vertical-align: middle; width: 28px; height: 28px; background-size: contain; background-repeat: no-repeat; background-position: center; }
+.icon30 { display: inline-block; font-size: xx-small; color: transparent; text-indent: -999px; overflow: hidden; vertical-align: middle; width: 30px; height: 30px; background-size: contain; background-repeat: no-repeat; background-position: center; }
+.icon34 { display: inline-block; font-size: xx-small; color: transparent; text-indent: -999px; overflow: hidden; vertical-align: middle; width: 34px; height: 34px; background-size: contain; background-repeat: no-repeat; background-position: center; }
+.icon40 { display: inline-block; font-size: xx-small; color: transparent; text-indent: -999px; overflow: hidden; vertical-align: middle; width: 40px; height: 40px; background-size: contain; background-repeat: no-repeat; background-position: center; }
+.icon60 { display: inline-block; font-size: xx-small; color: transparent; text-indent: -999px; overflow: hidden; vertical-align: middle; width: 60px; height: 60px; background-size: contain; background-repeat: no-repeat; background-position: center; }
+.icon76 { display: inline-block; font-size: xx-small; color: transparent; text-indent: -999px; overflow: hidden; vertical-align: middle; width: 76px; height: 76px; background-size: contain; background-repeat: no-repeat; background-position: center; }
+.icon85 { display: inline-block; font-size: xx-small; color: transparent; text-indent: -999px; overflow: hidden; vertical-align: middle; width: 85px; height: 85px; background-size: contain; background-repeat: no-repeat; background-position: center; }
+.icon95 { display: inline-block; font-size: xx-small; color: transparent; text-indent: -999px; overflow: hidden; vertical-align: middle; width: 95px; height: 95px; background-size: contain; background-repeat: no-repeat; background-position: center; }

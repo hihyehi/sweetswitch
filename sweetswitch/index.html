@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="format-detection" content="telephone=no">
+
+	<meta name="description" content="스윗스위치">
+	<meta name="keywords" content="스윗스위치">
+	<meta property="og:image" content="./resource/img/logo.png">
+
+	<title>스윗스위치</title>
+
+	<link rel="stylesheet" href="./resource/css/lib/jquery-ui.min.css">
+	<link rel="stylesheet" href="./resource/css/lib/jquery.fullpage.css">
+	<link rel="stylesheet" href="./resource/css/lib/swiper-bundle.min.css">
+	<link rel="stylesheet" href="./resource/css/app.css">
+	
+	<!-- <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey="></script> -->
+	<script src="./resource/js/lib/jquery-3.6.3.min.js"></script>
+	<script src="./resource/js/lib/jquery-ui.min.js"></script>
+	<script src="./resource/js/lib/in-view.min.js"></script>
+	<script src="./resource/js/lib/jquery.fullpage.js"></script>
+	<script src="./resource/js/lib/swiper-bundle.min.js"></script>
+	<script src="./resource/js/lib/particles.min.js"></script>
+	<script src="./resource/js/common.js"></script>
+
+</head>
+
+<body class="is-home">
+	<main id="wrap">
+
+
+		<button type="button" class="menu-btn hide">
+			<i></i>
+			<i></i>
+			<i></i>
+			<span class="a11y">메뉴 열기/닫기</span>
+		</button>
+		<div class="menu-layer">
+			<ul class="menu-layer__menus">
+				<li><a href="#home" class="home active">HOME</a></li>
+				<li><a href="#what">Sweet SWITCH ?</a></li>
+				<li><a href="#info">Digital Marketing</a></li>
+				<li><a href="#btl">BTL</a></li>
+				<li><a href="#client">Client</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</div>
+
+
+		<!-- [Start] main-area -->
+		<section class="main-area" id="main">
+			<ul id="menu">
+				<li data-menuanchor="home"><a href="#home"></a></li>
+				<li data-menuanchor="what"><a href="#what">Sweet SWITCH ?</a></li>
+				<li data-menuanchor="info"><a href="#info">Digital Marketing</a></li>
+				<li data-menuanchor="btl"><a href="#btl">BTL</a></li>
+				<li data-menuanchor="client"><a href="#client">Client</a></li>
+				<li data-menuanchor="contact"><a href="#contact">Contact</a></li>
+			</ul>
+
+			<div class="main-visual cont-area section n1">
+				<div class="header-area">
+					<div class="header-area__logo">
+						<a href="#home">
+							<img src="./resource/img/logo-header.png" alt="">
+						</a>
+					</div>
+					<ul class="header-area__menu">
+						<li><a href="#what">Sweet SWITCH ?</a></li>
+						<li><a href="#info">Digital Marketing</a></li>
+						<li><a href="#btl">BTL</a></li>
+						<li><a href="#client">Client</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
+				<div class="main-visual__bg" id="particles-js"></div>
+				<div class="cont-grid">
+					<div class="main-visual__logo" data-component="inview">
+						<img src="./resource/img/logo.png" alt="">
+					</div>
+					<div class="main-visual__desc" data-component="inview">커머스와 디지털 콘텐츠 기반의 독보적 브랜딩!</div>
+				</div>
+			</div>
+
+			<div class="cont-area section n2">
+				<div class="main-what">
+					<div class="main-what__tit txt-line">
+						Sweet!<br>SWITCH!
+					</div>
+					<div class="main-what__line"></div>
+					<div class="main-what__cont">
+						<div class="main-what__cont-tit">
+							Digital Marketing
+						</div>
+						<div class="main-what__cont-txt">
+							디지털 채널에서의 브랜드 최상위 노출,<br>
+							전략적 브랜드 커뮤니케이션을 기본으로 프로젝트 목표 도달,<br>
+							이커머스 채널에서의 고객 구매까지 목표 도달할 수 있는<br>
+							전략을 갖춘 디지털 마케팅 전문 대행사 입니다.
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="cont-area section n3">
+				<div class="main-info">
+					<ul class="info-list">
+						<li>
+							<div class="info-box n1">
+								<div class="info-box__bg"></div>
+								<div class="info-box__tit">최상위 검색 노출</div>
+							</div>
+						</li>
+						<li>
+							<div class="info-box n2">
+								<div class="info-box__bg"></div>
+								<div class="info-box__tit">쇼핑 검색 최적화</div>
+							</div>
+						</li>
+						<li>
+							<div class="info-box n3">
+								<div class="info-box__bg"></div>
+								<div class="info-box__tit">인플루언서 씨딩</div>
+							</div>
+						</li>
+						<li>
+							<div class="info-box n4">
+								<div class="info-box__bg"></div>
+								<div class="info-box__tit">네이티브 바이럴</div>
+							</div>
+						</li>
+					</ul>
+
+				</div>
+			</div>
+
+			<div class="cont-area section n4">
+				<div class="main-paging">
+					<div class="main-paging__inner">
+						<div class="main-paging__item">
+							<button type="button" class="main-paging__btn main-paging__btn--active">B2B프로모션</button>
+						</div>
+						<div class="main-paging__item">
+							<button type="button" class="main-paging__btn">신제품 런칭</button>
+						</div>
+						<div class="main-paging__item">
+							<button type="button" class="main-paging__btn">PR 홍보 </button>
+						</div>
+						<div class="main-paging__item">
+							<button type="button" class="main-paging__btn">소비자 대상</button>
+						</div>
+						<div class="main-paging__item">
+							<button type="button" class="main-paging__btn">영화제/페스티발</button>
+						</div>
+						<div class="main-paging__item">
+							<button type="button" class="main-paging__btn">박람회/홍보관/팝업스토어</button>
+						</div>
+						<div class="main-paging__item">
+							<button type="button" class="main-paging__btn">기타</button>
+						</div>
+					</div>
+				</div>
+				<div class="main-slider-area">
+					<div class="swiper main-slider">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<img src="./resource/img/project/project1.jpg" alt="">
+							</div>
+							<div class="swiper-slide">
+								<img src="./resource/img/project/project2.jpg" alt="">
+							</div>
+							<div class="swiper-slide">
+								<img src="./resource/img/project/project2.jpg" alt="">
+							</div>
+							<div class="swiper-slide">
+								<img src="./resource/img/project/project2.jpg" alt="">
+							</div>
+							<div class="swiper-slide">
+								<img src="./resource/img/project/project2.jpg" alt="">
+							</div>
+							<div class="swiper-slide">
+								<img src="./resource/img/project/project2.jpg" alt="">
+							</div>
+							<div class="swiper-slide">
+								<img src="./resource/img/project/project2.jpg" alt="">
+							</div>
+						</div>
+					  </div>
+				</div>
+			</div>
+
+
+			<div class="cont-area section n5">
+				<div class="main-client">
+					<div class="main-client__tit txt-line">
+						Clients
+					</div>
+					<div class="main-client__desc">
+						Which clients have we worked with?
+					</div>
+					<div class="main-client__imgs">
+						<div class="client-logo">
+							<div class="client-logo__item">
+								<img src="./resource/img/logo/logo-client1.png" alt="">
+							</div>
+							<div class="client-logo__item">
+								<img src="./resource/img/logo/logo-client2.png" alt="">
+							</div>
+							<div class="client-logo__item">
+								<img src="./resource/img/logo/logo-client3.png" alt="">
+							</div>
+							<div class="client-logo__item">
+								<img src="./resource/img/logo/logo-client4.png" alt="">
+							</div>
+							<div class="client-logo__item">
+								<img src="./resource/img/logo/logo-client5.png" alt="">
+							</div>
+						</div>
+						<div class="client-logo">
+							<div class="client-logo__item">
+								<img src="./resource/img/logo/logo-client1.png" alt="">
+							</div>
+							<div class="client-logo__item">
+								<img src="./resource/img/logo/logo-client2.png" alt="">
+							</div>
+							<div class="client-logo__item">
+								<img src="./resource/img/logo/logo-client3.png" alt="">
+							</div>
+							<div class="client-logo__item">
+								<img src="./resource/img/logo/logo-client4.png" alt="">
+							</div>
+							<div class="client-logo__item">
+								<img src="./resource/img/logo/logo-client5.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+			<div class="cont-area section n6">
+				<div class="cont-contact">
+					<div class="contact-tit">
+						CONTACT
+					</div>
+					<div class="main-contact">
+						<div class="main-contact__cont">
+							<div class="main-contact__tit">
+								오시는 길
+								<span class="main-contact__desc">서울시 금천구 범안로 1142, 202호, 지하철 1호선 독산역 3번 출구</span>
+							</div>
+
+							<div class="map-area" id="map">
+
+							</div>
+						</div>
+						<div class="main-contact__cont">
+							<div class="main-contact__tit">
+								문의사항
+							</div>
+							<div class="form-items">
+								<div class="form-item">
+									<input type="text" placeholder="이름" class="inp type-icon icon-user">
+								</div>
+								<div class="form-item">
+									<input type="email" placeholder="이메일" class="inp type-icon icon-email">
+								</div>
+								<div class="form-item">
+									<input type="tel" placeholder="전화번호" class="inp type-icon icon-tel">
+								</div>
+								<div class="form-item type-textarea">
+									<textarea name="" id="" cols="30" rows="10" class="textarea"></textarea>
+								</div>
+							</div>
+
+							<div class="btn-area">
+								<button type="button" class="btn type-txt-line">
+									<span>문의하기</span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="cont-footer">
+					<div class="footer-area">
+						<div class="footer-area__desc">
+							㈜스윗스위치  | 사업자등록번호 : 290-81-02202 | 서울시 금천구 범안로 1142, 202호  <br>
+							Copyright © 2022 Sweet Switch. All rights reserved.
+						</div>
+						<div class="footer-area__logo">
+							<img src="./resource/img/logo-footer.png" alt="">
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+
+
+
+			<script type="text/javascript">
+				;
+				(function ($, win, doc, undefined) {
+					$(doc).ready(function() {
+						
+
+						function openMenuLayer(isOpen){
+							if (isOpen === true) {
+								document.querySelector('.menu-btn').classList.add('is-menu-open');
+								document.body.classList.add('is-menu-open');
+								$.fn.fullpage.setMouseWheelScrolling(false);
+								$.fn.fullpage.setAllowScrolling(false);
+
+								return;
+							}
+							document.querySelector('.menu-btn').classList.remove('is-menu-open');
+							document.body.classList.remove('is-menu-open');
+							$.fn.fullpage.setMouseWheelScrolling(true);
+							$.fn.fullpage.setAllowScrolling(true);
+						}
+						document.querySelector('.menu-btn').addEventListener('click', function(){
+							if (this.classList.contains('is-menu-open')){
+								openMenuLayer(false);
+							} else {
+								openMenuLayer(true);
+							}
+						})
+						$('.menu-layer__menus a').on('click', function(){
+							openMenuLayer(false);
+						})
+
+						function headerEvent(){
+							var currHash = location.hash;
+							var currMenu = currHash.slice(1);
+							var elBtnMenu = document.querySelector('.menu-btn');
+							var elCurrBtn = document.querySelector('.menu-layer__menus a[href="'+currHash+'"]');
+
+
+							function toggleActiveClass(){
+								if (!!document.querySelector('.menu-layer__menus a.active')) {
+									document.querySelector('.menu-layer__menus a.active').classList.remove('active');
+								}
+								elCurrBtn.classList.add('active');
+							}
+
+
+							function showHideBtn(){
+								if (currHash === '#home') {
+									elBtnMenu.classList.add('hide');
+									return;
+								}
+								elBtnMenu.classList.remove('hide');
+							}
+
+							toggleActiveClass();
+							showHideBtn();
+							
+							
+						}
+						headerEvent();
+
+						window.addEventListener('hashchange', headerEvent, false);
+
+
+
+						function setMap(){
+							var container = document.getElementById('map'); //지도를 담을 영역의 DOM 레퍼런스
+							var options = { //지도를 생성할 때 필요한 기본 옵션
+								center: new kakao.maps.LatLng(37.46576245901655, 126.88897406506018), //지도의 중심좌표.
+								level: 3 //지도의 레벨(확대, 축소 정도)
+							};
+
+							var map = new kakao.maps.Map(container, options); //지도 생성 및 객체 리턴
+							var marker = new kakao.maps.Marker({ 
+								// 지도 중심좌표에 마커를 생성합니다 
+								position: map.getCenter() 
+							}); 
+							// 지도에 마커를 표시합니다
+							marker.setMap(map);
+						}
+						// setMap();
+
+
+						var mainSlider = new Swiper('.main-slider', {
+							// loop: true,
+							slidesPerView: 1.4,
+							spaceBetween: window.outerWidth * 0.05,
+							slidesOffsetAfter: window.outerWidth * 0.05,
+							centeredSlides: true
+						});
+
+
+						var $btn = $('.main-paging__btn');
+						$btn.each(function(idx, $el){
+							$el.dataset.idx = idx;
+						});
+						$('.main-paging__btn').on('click', function(){
+							var $this = $(this);
+							var idx = parseInt($this[0].dataset.idx);
+
+							mainSlider.slideTo(idx);
+							$('.main-paging__btn.main-paging__btn--active').removeClass('main-paging__btn--active');
+							$this.addClass('main-paging__btn--active');
+						});
+
+
+
+						$('#main').fullpage({
+							//Navigation
+							menu: '#menu',
+							lockAnchors: false,
+							anchors: ['home', 'what', 'info', 'btl', 'client', 'contact'],
+							// navigation: false,
+							// navigationPosition: 'right',
+							// navigationTooltips: ['firstSlide', 'secondSlide'],
+							// showActiveTooltip: false,
+							// slidesNavigation: false,
+							// slidesNavPosition: 'bottom',
+						})
+
+
+						/* ---- particles.js config ---- */
+						particlesJS("particles-js", {
+							particles: {
+								number: {
+								value: 80,
+								density: {
+									enable: true,
+									value_area: 800
+								}
+								},
+								color: {
+								value: ["#2EB67D", "#ECB22E", "#E01E5B", "#36C5F0"]
+								},
+								shape: {
+								type: ["circle"],
+								stroke: {
+									width: 0,
+									color: "#fff"
+								},
+								polygon: {
+									nb_sides: 5
+								},
+								image: {
+									src: "https://cdn.freebiesupply.com/logos/large/2x/slack-logo-icon.png",
+									width: 100,
+									height: 100
+								}
+								},
+								opacity: {
+								value: 1,
+								random: false,
+								anim: {
+									enable: false,
+									speed: 1,
+									opacity_min: 0.1,
+									sync: false
+								}
+								},
+								size: {
+								value: 8,
+								random: true,
+								anim: {
+									enable: false,
+									speed: 10,
+									size_min: 10,
+									sync: false
+								}
+								},
+								line_linked: {
+								enable: true,
+								distance: 150,
+								color: "#808080",
+								opacity: 0.4,
+								width: 1
+								},
+								move: {
+								enable: true,
+								speed: 5,
+								direction: "none",
+								random: false,
+								straight: false,
+								out_mode: "out",
+								bounce: false,
+								attract: {
+									enable: false,
+									rotateX: 600,
+									rotateY: 1200
+								}
+								}
+							},
+							interactivity: {
+								detect_on: "canvas",
+								events: {
+								onhover: {
+									enable: false,
+									mode: "grab"
+								},
+								onclick: {
+									enable: false,
+									mode: "push"
+								},
+								resize: true
+								},
+								modes: {
+								grab: {
+									distance: 140,
+									line_linked: {
+									opacity: 1
+									}
+								},
+								bubble: {
+									distance: 400,
+									size: 40,
+									duration: 2,
+									opacity: 8,
+									speed: 3
+								},
+								repulse: {
+									distance: 200,
+									duration: 0.4
+								},
+								push: {
+									particles_nb: 4
+								},
+								remove: {
+									particles_nb: 2
+								}
+								}
+							},
+							retina_detect: true
+						});
+                        
+
+
+					});
+				})(jQuery, window, document);
+			</script>
+		</section>
+		<!-- // [End] main-area -->
+
+	</main>
+</body>
+
+</html>
