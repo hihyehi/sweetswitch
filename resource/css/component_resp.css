@@ -1,5 +1,9 @@
 @charset 'UTF-8';
 
+/* only PC */
+@media (min-width:1025px) {
+	.only-resp { display: none !important; }
+}
 /* tablet & mobile */
 @media (max-width:1024px) {
 	html{ font-size: 0.08vw; }

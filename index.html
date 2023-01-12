@@ -97,7 +97,8 @@
 					<div class="main-what__line"></div>
 					<div class="main-what__cont">
 						<div class="main-what__cont-tit">
-							Digital Marketing
+							<span>Digital <br class="only-resp">Marketing</span>
+							<span>Below <br class="only-resp">The Line</span>
 						</div>
 						<div class="main-what__cont-txt">
 							디지털 채널에서의 브랜드 최상위 노출,<br>
@@ -366,6 +367,10 @@
 								elBtnMenu.classList.remove('hide');
 							}
 
+							if (currHash === '#btl' && !!mainSlider) {
+								mainSlider.slideTo(0);
+							}
+
 							toggleActiveClass();
 							showHideBtn();
 							
@@ -396,11 +401,19 @@
 
 
 						var mainSlider = new Swiper('.main-slider', {
-							// loop: true,
+							autoplay: {
+								delay: 4000,
+								disableOnInteraction: false,
+							},
 							slidesPerView: 1.4,
 							spaceBetween: window.outerWidth * 0.05,
 							slidesOffsetAfter: window.outerWidth * 0.05,
 							centeredSlides: true
+						});
+						mainSlider.on('slideChange', function (_swiper) {
+							var _idx = _swiper.activeIndex;
+							$('.main-paging__btn.main-paging__btn--active').removeClass('main-paging__btn--active');
+							document.querySelectorAll('.main-paging__btn')[_idx].classList.add('main-paging__btn--active');
 						});
 
 
